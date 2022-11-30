@@ -43,7 +43,9 @@ body {
     top:-80%;
 }
 
-.faq__photo-shadow-mobile {}
+.faq__title {
+    color: var(--Very_dark_desaturated_blue);
+}
 
 .faq__main {
   display: inline-block;
@@ -55,11 +57,26 @@ body {
   align-items: center;
 }
 
+.faq__question {
+    color: var(--Very_dark_grayish_blue);
+}
+
+.faq__question:hover,
+.faq__arrow {
+    cursor: pointer;
+    color: var(--Soft_red);
+}
+
+.faq__answer {
+    color: var(--Dark_grayish_blue);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: var(--Light_grayish_blue);
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--Very_dark_desaturated_blue);
 }
