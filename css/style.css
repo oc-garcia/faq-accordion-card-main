@@ -20,6 +20,7 @@ body {
   background: linear-gradient(var(--Soft_violet), var(--Soft_blue));
   height: 100%;
   width: 100%;
+  z-index: 4;
 }
 
 .faq__container-mobile {
@@ -64,7 +65,7 @@ body {
 }
 
 .faq__arrow {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 .faq__arrow-active {
@@ -92,8 +93,13 @@ body {
   display: none;
 }
 
+.line-between {
+  width: 100%;
+  border: 1px solid var(--Light_grayish_blue);
+}
+
 footer {
-    margin-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 
 .attribution {
@@ -104,4 +110,49 @@ footer {
 
 .attribution a {
   color: var(--Very_dark_desaturated_blue);
+}
+
+.faq__container-destop {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .faq__container-mobile {
+    display: none;
+  }
+
+  .faq__container-destop {
+    margin: 3rem;
+    height: 80vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: white;
+    border-radius: 30px;
+  }
+
+  .faq__header {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    align-items: center;
+    position: relative
+  }
+
+  .faq__photo-shadow {
+    position: absolute;
+    z-index: 1;
+    left: -50rem;
+  }
+
+  .faq__photo-box {
+    position: absolute;
+    z-index: 3;
+  }
+
+  .faq__photo-desktop {
+    position: absolute;
+    z-index: 2;
+  }
 }
