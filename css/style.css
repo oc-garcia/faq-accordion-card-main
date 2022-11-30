@@ -18,3 +18,36 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   font-size: 12px;
 }
+
+.faq__container-mobile{
+    margin: 5% 10%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq__main {
+    display: inline-block;
+}
+
+.faq-question-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
