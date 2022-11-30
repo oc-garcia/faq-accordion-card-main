@@ -17,30 +17,42 @@
 body {
   font-family: "Kumbh Sans", sans-serif;
   font-size: 12px;
+  background: linear-gradient(var(--Soft_violet), var(--Soft_blue));
 }
 
-.faq__container-mobile{
-    margin: 5% 10%;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.faq__container-mobile {
+  margin: 30% 10%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border-radius: 30px;
 }
 
 .faq__header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
+
+.faq__photo-mobile {
+    position: absolute;
+    width: 100%;
+    top:-80%;
+}
+
+.faq__photo-shadow-mobile {}
 
 .faq__main {
-    display: inline-block;
+  display: inline-block;
 }
 
-.faq-question-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.faq-question-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .attribution {
