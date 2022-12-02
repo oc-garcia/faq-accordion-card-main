@@ -137,14 +137,14 @@ footer {
     width: 50%;
     flex-direction: row;
     align-items: center;
-    position: relative
+    position: relative;
   }
 
   .faq__photo-shadow {
     position: absolute;
     z-index: 1;
     left: -35rem;
-    
+    top: -35rem;
   }
 
   .faq__photo-box {
@@ -158,5 +158,10 @@ footer {
     position: absolute;
     z-index: 2;
     left: -5rem;
+    top: -10.5rem;
+  }
+
+  .overflow-container {
+    overflow: hidden;
   }
 }
