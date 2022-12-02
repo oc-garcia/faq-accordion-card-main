@@ -143,16 +143,20 @@ footer {
   .faq__photo-shadow {
     position: absolute;
     z-index: 1;
-    left: -50rem;
+    left: -35rem;
+    
   }
 
   .faq__photo-box {
     position: absolute;
     z-index: 3;
+    left: -7.2rem;
+    bottom: -9rem;
   }
 
   .faq__photo-desktop {
     position: absolute;
     z-index: 2;
+    left: -5rem;
   }
 }
