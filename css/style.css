@@ -167,4 +167,8 @@ footer {
     position: absolute;
     z-index: 10;
   }
+
+  .faq__main {
+    width: 45%;
+  }
 }
