@@ -149,7 +149,7 @@ footer {
 
   .faq__photo-box {
     position: absolute;
-    z-index: 3;
+    z-index: 10;
     left: -7.2rem;
     bottom: -9rem;
   }
@@ -163,7 +163,7 @@ footer {
   }
 
   .overflow-container {
-    overflow: hidden;
+    /* overflow: hidden; */
     position: absolute;
     z-index: 10;
   }
