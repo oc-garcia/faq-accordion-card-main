@@ -9,7 +9,7 @@ https://oc-garcia.github.io/faq-accordion-card-main/
 https://github.com/oc-garcia/faq-accordion-card-main
 
 ## Project Image
-![](./images/Screenshot%20from%202022-12-02%2010-16-10.png#vitrinedev)
+![](./images/Screenshot%20from%202023-01-22%2012-25-32.png#vitrinedev)
 
 ## Project details
 Interactive FAQ accordion card. 
